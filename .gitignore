@@ -39,3 +39,30 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# logs
+*.log
+
+# claude code
+.claude/settings.local.json
+
+# claude skills & agents (local tooling, not project code)
+.agents/
+.claude/skills/
+skills-lock.json
+
+# oh-my-claudecode
+.omc/
+
+# interface design system (internal)
+.interface-design/
+
+# launch drafts (not for public)
+docs/launch/
+
+# playwright
+.playwright-mcp/
+
+# python cache
+__pycache__/
+*.pyc
