@@ -28,7 +28,7 @@ export default function Footer() {
             focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[var(--accent)] rounded-sm
           "
         >
-          Mocha
+          mocha
         </a>
         <span className="mx-1.5 text-[var(--border-default)]" aria-hidden="true">&middot;</span>
         <a
