@@ -24,9 +24,8 @@ export default function Header() {
         <a
           href="/"
           className="
+            flex items-center gap-2
             text-[var(--text-primary)]
-            font-[var(--font-mono)] font-semibold text-[15px]
-            tracking-[-0.02em]
             no-underline
             transition-colors duration-150 ease-in-out
             hover:text-[var(--accent)]
@@ -37,7 +36,21 @@ export default function Header() {
             rounded-[var(--radius-sm)]
           "
         >
-          messagetolink
+          <img
+            src="/messagetolink_logo.svg"
+            alt=""
+            width={24}
+            height={24}
+            className="block"
+          />
+          <span
+            className="
+              font-[var(--font-logo)] font-semibold text-[15px]
+              tracking-[-0.02em]
+            "
+          >
+            messagetolink
+          </span>
         </a>
 
         <ThemeToggle />

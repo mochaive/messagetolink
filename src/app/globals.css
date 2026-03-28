@@ -33,6 +33,7 @@
   /* Font Stacks */
   --font-sans: 'Pretendard Variable', 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', 'D2Coding', 'Menlo', 'Consolas', monospace;
+  --font-logo: 'General Sans', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
 
   /* Border Radius */
   --radius-sm: 6px;
